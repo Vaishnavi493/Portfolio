@@ -157,6 +157,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               placeholder="e.g. Rahul Sharma"
               className="w-full px-4 py-3 rounded-xl text-sm text-white/80 placeholder-white/20 outline-none transition-colors"
               style={{
@@ -176,6 +177,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              required
               placeholder="your@email.com"
               className="w-full px-4 py-3 rounded-xl text-sm text-white/80 placeholder-white/20 outline-none transition-colors"
               style={{
@@ -194,6 +196,8 @@ const Contact = () => {
             </label>
             <textarea
               rows={5}
+              name="message"
+              required
               placeholder="Hi Vaishnavi, I'd love to..."
               className="w-full px-4 py-3 rounded-xl text-sm text-white/80 placeholder-white/20 outline-none resize-none transition-colors"
               style={{
