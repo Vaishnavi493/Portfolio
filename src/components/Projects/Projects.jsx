@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import TimelineItem from "./TimelineItem";
-import { projects } from "./projectsData";
+import { projects } from "./ProjectsData";
 
 const Projects = () => {
   const sectionRef = useRef(null);
